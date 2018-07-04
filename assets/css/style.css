@@ -86,15 +86,37 @@ a {
 }	
 
 
-#header {
+		  /* nav link hover           */
+									
 	
-	font-size: 5vh;
+.naviLink:hover {
+	text-decoration: line-through;
+							
+}
+		  
+
+
+       /* DESKTOP             */
+#header {
+	font-family: "Rajdhani-Medium";
+	font-size: 5.8em;
 }
 
 #intro {
-	font-size: 1.8vh
+	font-size: 1.2em;
 }
 
+             /* MOBILE               */
+
+#header2 {
+	font-family: "Rajdhani-Medium";
+	font-size: 2.2em;
+
+}
+
+#intro2 {
+	font-size: 0.8em;
+}
 
 
 
@@ -262,7 +284,7 @@ a {
 .underconstruction {
 	font-family: "Space Mono";
 	font-weight: bolder;
-	font-size: 2.8em;
+	font-size: 1.5em;
 }
 
 
