@@ -38,7 +38,7 @@ body {
 
 .blackbar {
 	background-color: 
-	#191919
+	#0a0a0a
 }
 
 ul > li {
@@ -47,7 +47,7 @@ ul > li {
 
 .mid {
 	height: 100vh;
-	background-color: #191919
+	background-color: #0a0a0a
 }
 
 #navBrand {
@@ -345,13 +345,13 @@ a {
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 	#navChange {
-		background-color: #262626;
+		background-color: #191919
 	}
 	
 
 #footer {
 	font-size: 1.5vh;
-	background-color: #262626;
+	background-color: #191919
 }	
 
 	
@@ -362,13 +362,13 @@ a {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 	#navChange {
-		background-color: #262626;
+		background-color: #191919
 	}
 	
 
 	#footer {
 		font-size: 1.5vh;
-		background-color: #262626;
+		background-color: #191919
 	}	
 
 
@@ -379,10 +379,7 @@ a {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	#navChange {
-		background-color: red;
-	}
-	
+
   
 
 
