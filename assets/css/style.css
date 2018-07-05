@@ -37,7 +37,8 @@ body {
 }
 
 .blackbar {
-	background-color: black;
+	background-color: 
+	#191919
 }
 
 ul > li {
@@ -46,7 +47,7 @@ ul > li {
 
 .mid {
 	height: 100vh;
-	background-color: black;
+	background-color: #191919
 }
 
 #navBrand {
@@ -91,9 +92,10 @@ a {
 	
 .naviLink:hover {
 	text-decoration: line-through;
-							
+	color: black;
+
+
 }
-		  
 
 
        /* DESKTOP             */
@@ -109,13 +111,13 @@ a {
              /* MOBILE               */
 
 #header2 {
-	font-family: "Rajdhani-Medium";
-	font-size: 2.2em;
+	font-family: "Rajdhani-Bold";
+	font-size: 2.3em;
 
 }
 
 #intro2 {
-	font-size: 0.8em;
+	font-size: 0.6em;
 }
 
 
@@ -339,22 +341,18 @@ a {
   
 
 
-/*media queries*/
-
-@media (hover:none) {
-	.testLang:hover { 
-	  /* suppress hover effect on devices that don't support hover fully */
-	  background: none;
-	}
-  }
-
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+	#navChange {
+		background-color: #262626;
+	}
 	
-	#mid {
-	   height: 90vh;
-	   {
+
+#footer {
+	font-size: 1.5vh;
+	background-color: #262626;
+}	
 
 	
 
@@ -363,11 +361,16 @@ a {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	#navChange {
+		background-color: #262626;
+	}
 	
-	#mid {
-		height: 50vh;
 
-   {
+	#footer {
+		font-size: 1.5vh;
+		background-color: #262626;
+	}	
+
 
 
 
@@ -376,15 +379,11 @@ a {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	
-	#greybar {
-   	background-color: #191919;
-   
-	 }
-   
-   #mid { 
-	   height: 100vh;
+	#navChange {
+		background-color: red;
 	}
+	
+  
 
 
 
@@ -394,11 +393,6 @@ a {
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
 
-	#mid {
-		height: 200vh;
-		background-color: red;
-	
-	}
 
 	
 }
@@ -406,12 +400,6 @@ a {
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-	
-	#mid {
-		height: 200vh;
-		background-color: red;
-	
 
-	}
 
 }
