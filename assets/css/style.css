@@ -281,7 +281,7 @@ a {
 
 /* <----------------- underconstruction------------> */
 
-.underconstruction {
+.underconstructionMobile {
 	font-family: "Space Mono";
 	font-weight: bolder;
 	font-size: 1.5em;
@@ -289,6 +289,11 @@ a {
 
 
 
+.underconstructionDesktop {
+	font-family: "Space Mono";
+	font-weight: bolder;
+	font-size: 5em;
+}
 
 
 
