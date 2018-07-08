@@ -6,28 +6,6 @@
 }
 
 
-
-/*---------------------------- FONT ------------------------*/
-
-
-@font-face {
-    font-family: "Rajdhani-Bold";
-    src: url("../font/Rajdhani-Bold.ttf");
-}
-
-
-@font-face {
-    font-family: "Rajdhani-Medium";
-    src: url("../font/Rajdhani-Medium.ttf");
-}
-
-@font-face {
-    font-family: "Rajdhani-Regular";
-    src: url("../font/Rajdhani-Medium.ttf");
-}
-
-
-
 body {
 	background-color: black;
 }
@@ -292,16 +270,16 @@ a {
 /* <----------------- underconstruction------------> */
 
 .underconstructionMobile {
-	font-family: "Space Mono";
-	font-weight: bolder;
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
 	font-size: 1.5em;
 }
 
 
 
 .underconstructionDesktop {
-	font-family: "Space Mono";
-	font-weight: bolder;
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
 	font-size: 5em;
 }
 
