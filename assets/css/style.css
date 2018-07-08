@@ -229,11 +229,20 @@ a {
 
 .design {
 
-	 font-family: "Rajdhani-Bold";
-	 font-size: 1.8em;
+	 font-family: "Rajdhani-Medium";
+	 font-size: 1.4em;
+	 opacity: 0.9;
 	
 	
 	}
+
+.frontEndHeader {
+
+		font-family: "Rajdhani-Bold";
+		font-size: 1.8em;
+	   
+	   
+}
 
 
 
