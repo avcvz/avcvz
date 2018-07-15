@@ -285,8 +285,17 @@ a {
 	font-size: 5em;
 }
 
+.underconstructionProjectsDesktop {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	font-size: 3em;
+}
 
-
+.underconstructionProjectMobile {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	font-size: 1.2em;
+}
 
 
 
